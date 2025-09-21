@@ -1,0 +1,14 @@
+:: 1) Convert the video to HLS into public\videos\Watchmen
+scripts\convert-hls.bat "movies\Watchmen.mp4" "Watchmen"
+
+:: 2) Convert the .srt to .vtt into the same folder
+scripts\srt2vtt.bat "movies\Watchmen.srt" "public\videos\Watchmen" -overwrite
+
+ffmpeg -y -hide_banner -loglevel error -sub_charenc UTF-8 -i "movies\Watchmen.srt" -f webvtt "public\videos\Watchmen\Watchmen.vtt"
+
+cloudflared tunnel --url http://localhost:3000
+
+
+scripts\convert-hls.bat "movies\Manchester.By.The.Sea.mp4" "ManchesterByTheSea"
+
+		
