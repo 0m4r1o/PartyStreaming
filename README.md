@@ -1,3 +1,95 @@
+<div id="top">
+
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
+
+
+# PARTYSTREAMING
+
+<em>Unite Friends and Family Through Seamless Streaming</em>
+
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/0m4r1o/PartyStreaming?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/0m4r1o/PartyStreaming?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/0m4r1o/PartyStreaming?style=flat&color=0080ff" alt="repo-language-count">
+
+<em>Built with the tools and technologies:</em>
+
+<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/.ENV-ECD53F.svg?style=flat&logo=dotenv&logoColor=black" alt=".ENV">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=flat&logo=GNU-Bash&logoColor=white" alt="GNU%20Bash">
+<img src="https://img.shields.io/badge/bat-31369E.svg?style=flat&logo=bat&logoColor=white" alt="bat">
+
+</div>
+<br>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
+
+---
+
+## Overview
+
+PartyStreaming is an open-source toolkit designed to enable synchronized, browser-based media sharing for family and friends. It combines powerful media processing, real-time communication, and flexible streaming capabilities to create seamless shared viewing experiences.
+
+**Why PartyStreaming?**
+
+This project simplifies building collaborative media platforms with features including:
+
+- 🌀 **🎥 Video Encoding & Streaming:** Converts videos into HLS format for smooth, adaptive playback across devices.
+- 🌐 **🔗 Real-Time Synchronization:** Uses WebSocket rooms to keep playback and chat perfectly in sync for all viewers.
+- 📜 **📝 Subtitle Conversion:** Automates transforming SRT subtitles into WebVTT for accessible, integrated subtitles.
+- 🚀 **🔒 Self-Hosting & Tunneling:** Supports secure remote access and deployment within your own infrastructure.
+- 🎮 **🎙️ Interactive Chat & Controls:** Facilitates live chat and playback controls for an engaging shared experience.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language:** unknown
+- **Package Manager:** Npm
+
+### Installation
+
+Build PartyStreaming from the source and install dependencies:
+
+1. **Clone the repository:**
+
+    ```sh
+    ❯ git clone https://github.com/0m4r1o/PartyStreaming
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    ❯ cd PartyStreaming
+    ```
+
+3. **Install the dependencies:**
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+❯ npm install
+```
+
+
 # Family Stream — Watch Party
 
 A dead-simple self-hosted watch-party for family and friends. Drop a video, convert to **HLS**, share a link, and watch together with **synced play/pause/seek**, **subtitles**, and **chat**.
